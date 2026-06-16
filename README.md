@@ -35,8 +35,6 @@ Production-grade infrastructure, fully documented and automated:
 - 🎯 HashiCorp Terraform Associate (003) — Exam ready
 - 🎯 CKAD — Exam ready
 
-📚 Currently: AWS SAA-C03 prep
-
 ---
 
 ## 📫 Connect
