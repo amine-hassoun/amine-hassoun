@@ -1,7 +1,7 @@
 # Amine Hassoun
 
-**DevOps Engineer** · Kubernetes · AWS · Terraform · CI/CD  
-France · Remote
+**DevOps Engineer** · Kubernetes · AWS · Terraform · CI/CD
+Open to Remote (Worldwide) · Hybrid/Onsite (France/EU)
 
 ---
 
@@ -10,11 +10,12 @@ France · Remote
 Production-grade infrastructure, fully documented and automated:
 
 - 🐳 **Multi-stage Docker** (non-root user, 60%+ size reduction, Trivy scanning)
-- ☸️ **Kubernetes** with Helm, Sealed Secrets, HPA, Network Policies, RBAC
-- 🏗️ **Terraform** modules + remote state + DynamoDB locking + checkov analysis
-- 🔁 **GitHub Actions** OIDC pipelines (zero static credentials)
-- 📊 **Monitoring** (CloudWatch, Prometheus/Grafana)
-- 📝 **Production READMEs**: architecture diagrams, cost tables, lessons learned
+- ☸️ **Kubernetes** with Helm, Sealed Secrets, HPA, NetworkPolicies, RBAC
+- 🏗️ **Terraform** modules + remote state + DynamoDB locking + checkov analysis, OIDC CI/CD, plan-on-PR
+- 🔁 **GitHub Actions** OIDC pipelines (zero static credentials, gated deploys, Dependabot)
+- 📊 **Observability**: Prometheus/Grafana (app + cluster dashboards), AWS CloudWatch alarms & dashboards
+- 🐧 **Linux & automation**: Bash scripting, Ansible playbooks/roles, systemd/journalctl troubleshooting, SSH/sysctl/auditd hardening
+- 📝 **Production READMEs**: architecture diagrams, cost tables, security decisions, lessons learned
 
 ---
 
@@ -22,18 +23,19 @@ Production-grade infrastructure, fully documented and automated:
 
 | Project | Stack | What it demonstrates |
 |---|---|---|
-| **devops-k8s-pipeline** | K8s · Helm · GitHub Actions · Docker | GitOps deployment, Sealed Secrets, HPA, RBAC, Trivy |
-| **aws-terraform-infra** | Terraform · AWS · GitHub Actions | Full AWS stack, OIDC, plan-on-PR, checkov, cost estimate |
-| **linux-hardening-lab** | Linux · Bash | CIS Level 1 hardening, auditd, SSH config, firewall |
+| **devops-k8s-pipeline** | K8s · Helm · GitHub Actions · Docker · Prometheus/Grafana | GitOps deployment, Sealed Secrets, HPA, RBAC, Trivy scanning, full observability stack |
+| **aws-terraform-infra** | Terraform · AWS · Lambda · DynamoDB | Serverless AWS stack, OIDC CI/CD, plan-on-PR, checkov, Dependabot, $0/month by design |
+| **linux-hardening-lab** | Linux · Bash · Ansible | CIS Level 1 hardening, auditd, SSH config, UFW firewall, idempotent Ansible role |
 
 ---
 
 ## 📜 Certifications
 
-- 🎯 AWS Cloud Practitioner (CLF-C02) — Exam ready
-- 🎯 AWS Solutions Architect Associate (SAA-C03) — Exam ready
-- 🎯 HashiCorp Terraform Associate (003) — Exam ready
-- 🎯 CKAD — Exam ready
+- ✅ AWS Certified Solutions Architect – Associate (SAA-C03) — Practice-validated
+- ✅ HashiCorp Certified: Terraform Associate (004) — Practice-validated
+- ✅ Certified Kubernetes Application Developer (CKAD) — Practice-validated
+- ✅ AWS Certified Cloud Practitioner (CLF-C02) — Practice-validated
+- ✅ Linux Foundation Certified IT Associate (LFCA) — Practice-validated
 
 ---
 
