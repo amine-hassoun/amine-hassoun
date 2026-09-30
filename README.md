@@ -29,14 +29,13 @@ Production-grade infrastructure, fully documented and automated:
 
 ---
 
-## 📜 Certifications
+## 📜 Practice-validated Certifications
 
-- ✅ AWS Certified Solutions Architect – Associate (SAA-C03) — Practice-validated
-- ✅ HashiCorp Certified: Terraform Associate (004) — Practice-validated
-- ✅ Certified Kubernetes Application Developer (CKAD) — Practice-validated
-- ✅ AWS Certified Cloud Practitioner (CLF-C02) — Practice-validated
-- ✅ Linux Foundation Certified IT Associate (LFCA) — Practice-validated
-
+- ✅ AWS Certified Solutions Architect – Associate (SAA-C03)
+- ✅ HashiCorp Certified: Terraform Associate (004)
+- ✅ Certified Kubernetes Application Developer (CKAD)
+- ✅ AWS Certified Cloud Practitioner (CLF-C02)
+- ✅ Linux Foundation Certified IT Associate (LFCA)
 ---
 
 ## 📫 Connect
