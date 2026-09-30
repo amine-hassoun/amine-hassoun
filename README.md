@@ -23,8 +23,8 @@ Production-grade infrastructure, fully documented and automated:
 
 | Project | Stack | What it demonstrates |
 |---|---|---|
-| **devops-k8s-pipeline** | K8s · Helm · GitHub Actions · Docker · Prometheus/Grafana | GitOps deployment, Sealed Secrets, HPA, RBAC, Trivy scanning, full observability stack |
-| **aws-terraform-infra** | Terraform · AWS · Lambda · DynamoDB | Serverless AWS stack, OIDC CI/CD, plan-on-PR, checkov, Dependabot, $0/month by design |
+| [devops-k8s-pipeline](https://github.com/amine-hassoun/devops-k8s-pipeline) | K8s · Helm · GitHub Actions · Docker · Prometheus/Grafana | GitOps deployment, Sealed Secrets, HPA, RBAC, Trivy scanning, full observability stack |
+| [aws-terraform-infra](https://github.com/amine-hassoun/aws-terraform-infra) | Terraform · AWS · Lambda · DynamoDB | Serverless AWS stack, OIDC CI/CD, plan-on-PR, checkov, Dependabot, $0/month by design |
 | **linux-hardening-lab** | Linux · Bash · Ansible | CIS Level 1 hardening, auditd, SSH config, UFW firewall, idempotent Ansible role |
 
 ---
