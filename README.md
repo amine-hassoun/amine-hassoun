@@ -1,43 +1,39 @@
 # Amine Hassoun
 
-**DevOps Engineer** · Kubernetes · AWS · Terraform · CI/CD · Automation
-Open to Remote (Worldwide) · Hybrid/Onsite (France/EU)
+**DevSecOps** · DevOps · Cloud Security · Terraform · Kubernetes · IAM · Compliance Automation
+Open to Remote (Worldwide) · Hybrid/Onsite (EU) · Open to Relocation
 
 ---
 
-## 🔧 What I build
+## 👋 About
 
-Production-grade infrastructure and tooling, fully documented and automated:
-
-- 🐳 **Multi-stage Docker** (non-root user, 60%+ size reduction, Trivy scanning)
-- ☸️ **Kubernetes** with Helm, Sealed Secrets, HPA, NetworkPolicies, RBAC
-- 🏗️ **Terraform** modules + remote state + DynamoDB locking + checkov analysis, OIDC CI/CD, plan-on-PR
-- 🔁 **GitHub Actions** OIDC pipelines (zero static credentials, gated deploys, Dependabot)
-- 📊 **Observability**: Prometheus/Grafana (app + cluster dashboards), AWS CloudWatch alarms & dashboards
-- 🍑 **Zero-cost full-stack apps**: installable PWA (Vite, service worker), unit-tested date engine (Vitest), serverless sync (Lambda Function URL + DynamoDB, CORS-locked, token-hash auth), GitHub Pages deploy, all at $0/month
-- 🐧 **Linux & automation**: Bash scripting, Ansible playbooks/roles, systemd/journalctl troubleshooting, SSH/sysctl/auditd hardening
-- 📝 **Production READMEs**: architecture diagrams, cost tables, security decisions, lessons learned
+DevSecOps and cloud security engineer with 3+ years of experience delivering end-to-end security solutions across cloud infrastructure (AWS and GCP), compliance frameworks (ISO 27001, SOC 2, GDPR, PCI DSS) and DevSecOps practices. Hands-on with Vanta and Drata and with auditing bank servers. Backend development background, plus three self-directed automation projects below.
 
 ---
 
-## 📌 Pinned Projects
+## 🔧 What I do
 
-| Project | Stack | What it demonstrates |
-|---|---|---|
-| [devops-k8s-pipeline](https://github.com/amine-hassoun/devops-k8s-pipeline) | K8s · Helm · GitHub Actions · Docker · Prometheus/Grafana | GitOps deployment, Sealed Secrets, HPA, RBAC, Trivy scanning, full observability stack |
-| [aws-terraform-infra](https://github.com/amine-hassoun/aws-terraform-infra) | Terraform · AWS · Lambda · DynamoDB | Serverless AWS stack, OIDC CI/CD, plan-on-PR, checkov, Dependabot, $0/month by design |
+- ☁️ **Cloud security (AWS & GCP)**: Security Command Center, Cloud Armor, Artifact Analysis, Policy Intelligence, Organization Policies, IAM Deny Policies, GuardDuty, WAF, Security Hub, Inspector
+- 🔑 **IAM**: OIDC federation, least-privilege roles, Identity Center
+- 🏗️ **Infrastructure as Code**: Terraform and OpenTofu (modules, remote state, workspaces, OIDC CI/CD, plan-on-PR), Checkov static analysis
+- 🔁 **DevSecOps & CI/CD**: GitHub Actions (OIDC, Trivy), Veracode (SAST/SCA), secrets detection, signed artifacts, Cloud Custodian, Dependabot
+- ☸️ **Kubernetes & containers**: RBAC, NetworkPolicy, Helm, Sealed Secrets, HPA, Falco runtime detection, hardened multi-stage Docker builds (non-root)
+- 📊 **Monitoring**: OpenSearch, Prometheus, Grafana, AWS CloudWatch, automated patch management
+- 📋 **Compliance & GRC**: ISO 27001, SOC 2, GDPR, Vanta, Drata, server security auditing, security architecture reviews
+- 🐧 **Linux & backend**: Bash, SSH hardening, auditd, UFW, Apache2; Node.js, Python, REST APIs, SQL
+
 ---
 
-## 📜 Practice-validated Certifications
+## 💼 Experience
 
-- ✅ AWS Certified Solutions Architect – Associate (SAA-C03)
-- ✅ HashiCorp Certified: Terraform Associate (004)
-- ✅ Certified Kubernetes Application Developer (CKAD)
-- ✅ AWS Certified Cloud Practitioner (CLF-C02)
-- ✅ Linux Foundation Certified IT Associate (LFCA)
+- **DevSecOps Engineer, Deloitte** (May 2026 – present): securing GCP and AWS across 20+ accounts with Terraform and OpenTofu; centralized monitoring on OpenSearch; Checkov, Veracode and Cloud Custodian rollout
+- **DevSecOps, UBS** (Jul 2025 – May 2026): secure on-prem CI/CD with security gates; hardened on-prem Kubernetes (RBAC, segmentation, Falco); bank server audits
+- **Security Systems Engineer, EPAM Systems** (Feb 2025 – Jul 2025): AWS L3 security support, as a contractor for IBM
+- **DevOps Engineer, Capgemini** (Oct 2023 – Feb 2025): Junior, then Middle DevOps Engineer
+- **Backend Developer (Project Lead)** (Feb 2023 – Oct 2023): led a 3-person team building a booking app backend (Node.js, REST, SQL)
 
 ---
 
 ## 📫 Connect
 
-[LinkedIn](https://linkedin.com/in/amine-hassoun) · [Email](mailto:m.amine.hassoun@gmail.com)
+[LinkedIn](https://linkedin.com/in/aminehassoun) · [Email](mailto:m.amine.hassoun@gmail.com)
