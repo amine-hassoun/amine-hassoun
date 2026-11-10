@@ -38,7 +38,6 @@ Production-grade infrastructure and tooling, fully documented and automated:
 |---|---|---|
 | [devops-k8s-pipeline](https://github.com/amine-hassoun/devops-k8s-pipeline) | K8s · Helm · GitHub Actions · Docker · Prometheus/Grafana | GitOps deployment, Sealed Secrets, HPA, RBAC, Trivy scanning, full observability stack |
 | [aws-terraform-infra](https://github.com/amine-hassoun/aws-terraform-infra) | Terraform · AWS · Lambda · DynamoDB | Serverless AWS stack, OIDC CI/CD, plan-on-PR, checkov, Dependabot, $0/month by design |
-| [peach](https://github.com/amine-hassoun/peach) | Lambda · DynamoDB · EventBridge · SNS · Chrome extension (MV3) | Serverless pipeline that scores job postings (TF-IDF/cosine similarity) and emails a ranked daily digest, $0/month, no LLM calls |
 
 ---
 
