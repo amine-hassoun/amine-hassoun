@@ -3,7 +3,7 @@
 **DevOps Engineer** · Automation · Kubernetes · Terraform · Cloud · CI/CD · Security · Observability
 Open to Remote (Worldwide) · Hybrid/Onsite EU · Open to Relocation
 
-DevOps Engineer with 2+ years of experience delivering cloud infrastructure, CI/CD and automation on AWS across consulting and banking environments. Security (least-privilege IAM, image and IaC scanning, secrets management) and observability built into every system.
+DevOps Engineer with 2+ years of experience delivering cloud infrastructure, CI/CD and automation on AWS in consulting environments. Security (least-privilege IAM, image and IaC scanning, secrets management) and observability built into every system.
 
 ---
 
@@ -15,8 +15,9 @@ Production-grade infrastructure and tooling, fully documented and automated:
 - ☸️ **Kubernetes** with Helm, Sealed Secrets, HPA, NetworkPolicies, RBAC
 - 🏗️ **Terraform** modules + remote state + DynamoDB locking + checkov analysis, OIDC CI/CD, plan-on-PR
 - ☁️ **AWS**: VPC with Gateway Endpoints, Lambda, DynamoDB, EventBridge, SNS, CloudWatch, IAM with OIDC federation and least privilege
-- 🔁 **GitHub Actions** OIDC pipelines (zero static credentials, gated deploys, Dependabot) and GitLab CI
+- 🔁 **GitHub Actions** OIDC pipelines (zero static credentials, gated deploys, Dependabot)
 - 📊 **Observability**: Prometheus/Grafana (app + cluster dashboards), AWS CloudWatch alarms & dashboards
+- 🍑 **Zero-cost full-stack apps**: installable PWA (Vite, service worker), unit-tested date engine (Vitest), serverless sync (Lambda Function URL + DynamoDB, CORS-locked, token-hash auth), GitHub Pages deploy, all at $0/month
 - 🐧 **Linux & automation**: Bash and Python scripting, Ansible playbooks/roles, systemd/journalctl troubleshooting, SSH/sysctl/auditd hardening
 - 📝 **Production READMEs**: architecture diagrams, cost tables, security decisions, lessons learned
 
@@ -25,8 +26,7 @@ Production-grade infrastructure and tooling, fully documented and automated:
 ## 💼 Experience
 
 - **DevOps Engineer, Deloitte** (Mar 2026 – Present): AWS infrastructure and CI/CD platforms for enterprise clients
-- **DevOps Engineer, UBS** (Sep 2025 – Mar 2026): CI/CD and infrastructure automation in a regulated banking environment
-- **Junior DevOps Engineer / Intern, Capgemini** (Oct 2024 – Sep 2025): CI/CD, Terraform, Ansible and Kubernetes (remote)
+- **Junior DevOps Engineer / Intern, Capgemini** (Oct 2024 – Mar 2026): CI/CD, Terraform, Ansible and Kubernetes (remote)
 - **Backend Developer (Project Lead)**, Bar-le-Duc (May 2024 – Oct 2024): Node.js, REST APIs, SQL, Linux deployment
 
 ---
