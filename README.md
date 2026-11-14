@@ -17,7 +17,7 @@ Production-grade infrastructure and tooling, fully documented and automated:
 - ☁️ **AWS**: VPC with Gateway Endpoints, Lambda, DynamoDB, EventBridge, SNS, CloudWatch, IAM with OIDC federation and least privilege
 - 🔁 **GitHub Actions** OIDC pipelines (zero static credentials, gated deploys, Dependabot)
 - 📊 **Observability**: Prometheus/Grafana (app + cluster dashboards), AWS CloudWatch alarms & dashboards
-- 🍑 **Zero-cost full-stack apps**: installable PWA (Vite, service worker), unit-tested date engine (Vitest), serverless sync (Lambda Function URL + DynamoDB, CORS-locked, token-hash auth), GitHub Pages deploy, all at $0/month
+- 🍑 **Zero-cost full-stack apps**: installable PWA (Vite, service worker), unit-tested date engine (Vitest), token-guarded serverless sync (Lambda Function URL + DynamoDB, SHA-256 token hash), site and API served by the same Lambda, all at $0/month
 - 🐧 **Linux & automation**: Bash and Python scripting, Ansible playbooks/roles, systemd/journalctl troubleshooting, SSH/sysctl/auditd hardening
 - 📝 **Production READMEs**: architecture diagrams, cost tables, security decisions, lessons learned
 
