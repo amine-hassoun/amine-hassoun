@@ -17,6 +17,7 @@ Production-grade infrastructure and tooling, fully documented and automated:
 - ☁️ **AWS**: VPC with Gateway Endpoints, Lambda, DynamoDB, EventBridge, SNS, CloudWatch, IAM with OIDC federation and least privilege
 - 🔁 **GitHub Actions** OIDC pipelines (zero static credentials, gated deploys, Dependabot)
 - 📊 **Observability**: Prometheus/Grafana (app + cluster dashboards), AWS CloudWatch alarms & dashboards
+- 🎯 **Serverless automation**: job-search pipeline at $0/month: Chrome extension (Manifest V3) + Python Lambdas on EventBridge, TF-IDF fit scoring, DynamoDB sparse indexes, SNS email digest, Terraform + checkov CI
 - 🍑 **Zero-cost full-stack apps**: installable PWA (Vite, service worker), unit-tested date engine (Vitest), token-guarded serverless sync (Lambda Function URL + DynamoDB, SHA-256 token hash), site and API served by the same Lambda, all at $0/month
 - 🐧 **Linux & automation**: Bash and Python scripting, Ansible playbooks/roles, systemd/journalctl troubleshooting, SSH/sysctl/auditd hardening
 - 📝 **Production READMEs**: architecture diagrams, cost tables, security decisions, lessons learned
@@ -37,6 +38,7 @@ Production-grade infrastructure and tooling, fully documented and automated:
 |---|---|---|
 | [devops-k8s-pipeline](https://github.com/amine-hassoun/devops-k8s-pipeline) | K8s · Helm · GitHub Actions · Docker · Prometheus/Grafana | GitOps deployment, Sealed Secrets, HPA, RBAC, Trivy scanning, full observability stack |
 | [aws-terraform-infra](https://github.com/amine-hassoun/aws-terraform-infra) | Terraform · AWS · Lambda · DynamoDB | Serverless AWS stack, OIDC CI/CD, plan-on-PR, checkov, Dependabot, $0/month by design |
+| [job-radar](https://github.com/amine-hassoun/job-radar) | Python · Terraform · AWS Lambda · DynamoDB · Chrome extension | Serverless job-search pipeline: captures postings, fit-scores them, emails a daily digest. Sparse GSIs, cost-guard CI, checkov, $0/month |
 
 ---
 
